@@ -36,7 +36,7 @@ idxx++;
 if(idxx > imgg.length - 1){
 idxx = 0
 }
-imgss.style.transform = `translateX(${-idxx * 460}px)`
+imgss.style.transform = `translateX(${-idxx * 420}px)`
 }
 setInterval(carrossell, 4000);
 // slide Carrossel 768px

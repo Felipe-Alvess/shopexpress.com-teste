@@ -136,8 +136,8 @@ header nav a:hover {
 /* slide carrossel 768px */
 
 .containerr {
-    width: 460px;
-    height: 250px;
+    width: 420px;
+    height: 300px;
     box-shadow: 2px 2px 4px #000;
     overflow: hidden;
     margin-top: 6rem;
@@ -152,8 +152,8 @@ header nav a:hover {
 }
 
 .carrossell img {
-    width: 460px;
-    height: 250px;
+    width: 417px;
+    height: 300px;
     object-fit: cover;
 }
 
