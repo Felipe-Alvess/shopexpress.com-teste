@@ -59,6 +59,8 @@ header nav a:hover {
     left: 0;
     display: none;
     z-index: 100;
+    background-color: #000000ce;
+    backdrop-filter: blur(10px);
 }
 
 .dropDown a {
@@ -67,7 +69,7 @@ header nav a:hover {
     flex-direction: column;
     text-align: left;
     color: #fff;
-    background-color: brown;
+   
 }
 /* dropDown menu */
 
@@ -352,7 +354,8 @@ header nav a:hover {
     }
 
     .dropDown a:hover{
-    background-color: rgb(97, 55, 55);
+    background-color:#fff;
+    color: #000;
 }
 
 .searchBar input{
