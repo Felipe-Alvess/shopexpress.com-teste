@@ -23,7 +23,7 @@ idx = 0
 }
 imgs.style.transform = `translateX(${-idx * 100}%)`
 }
-setInterval(carrossel, 4000);
+setInterval(carrossel, 5000);
 // slide Carrossel
 
 // slide Carrossel 768px
@@ -113,4 +113,18 @@ Smartphones.style.display = 'none'}
 if(typingText.style.display = 'flex'){
     typingText.style.display = 'none'}
 }
-     
+
+// Adicionando valor ao carrinho
+
+document.addEventListener('DOMContentLoaded', () => {
+    const cartButton = document.getElementById('itemList');
+    const cartCount = document.getElementById('cartCount');
+
+    cartButton.addEventListener('click', () => {
+        let currentCount = parseInt(cartCount.textContent, 10);
+        cartCount.textContent = currentCount + 1;
+    });
+});
+
+
+// Adicionando valor ao carrinho

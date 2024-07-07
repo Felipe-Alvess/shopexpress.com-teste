@@ -21,7 +21,7 @@ html,body{
 /* header menu */
 header{
     padding: 1%;
-    background-color: rgba(66, 29, 29, 0.918);
+    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,13 +44,13 @@ header nav {
 
 header nav a {
     margin: 5px;
-    padding: 11px 5px;
+    padding: 12px 5px;
     transition: 1s ease-in-out;
     color: #fff;
 }
 
 header nav a:hover {
-    background-color: #000;
+    background-color: #000000c9;
 }
 /* header menu */
 /* dropDown menu */
@@ -280,7 +280,6 @@ header nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    
 }
 
 .televisao li {
@@ -315,12 +314,11 @@ header nav a:hover {
 .typing-Text{
     position: absolute;
     margin-top: 46.4%;
-    
 }
 
-#typingText{
-    color: #fff;
+#typingText {
     font-size: 30px;
+    color: #fff;
 }
 
 /* JaVaScript typingText */
