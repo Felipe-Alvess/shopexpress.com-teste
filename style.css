@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+a{color: inherit;}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(216, 216, 164);
+}
+html,body{
+    scroll-behavior: smooth;
+}
+/* header menu */
+header{
+    padding: 1%;
+    background-color: rgba(66, 29, 29, 0.918);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 3rem;
+    color: #fff;
+}
+
+header .bx-menu{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header nav {
+    font-size: 22px;
+}
+
+header nav a {
+    margin: 5px;
+    padding: 11px 5px;
+    transition: 1s ease-in-out;
+    color: #fff;
+}
+
+header nav a:hover {
+    background-color: #000;
+}
+/* header menu */
+/* dropDown menu */
+.dropDown {
+    position: fixed;
+    left: 0;
+    display: none;
+    z-index: 100;
+}
+
+.dropDown a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+    background-color: brown;
+}
+/* dropDown menu */
+
+/* Media social e barra de pesquisa */
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    margin-top: 2.8rem;
+    background-color: #000;
+    font-size: 20px;
+    padding: 2%;
+    color: #fff;
+    position: fixed;
+    z-index: 1000;
+}
+
+.searchBar input {
+    padding: 10px 15px;
+    max-width: 250px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.searchBar input:hover{
+    outline-color: brown;
+}
+
+.media i{
+    margin: 10px;
+    font-size: 26px;
+}
+
+.login i:hover{
+    color: red;
+}
+/* Media social e barra de pesquisa */
+/* slide Carrossel */
+.container {
+    width: 100%;
+    height: 400px;
+    box-shadow: 2px 2px 4px #000;
+    overflow: hidden;
+    margin-top: 6.2rem;
+    position: absolute;
+}
+
+.carrossel {
+    display: flex;
+    transition: 0.5s ease-in-out;
+    transform: translateX(0px);
+}
+
+.carrossel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+/* slide Carrossel */
+
+/* slide carrossel 768px */
+
+.containerr {
+    width: 460px;
+    height: 250px;
+    box-shadow: 2px 2px 4px #000;
+    overflow: hidden;
+    margin-top: 6rem;
+    position: absolute;
+    display: none;
+}
+
+.carrossell {
+    display: flex;
+    transition: 0.5s ease-in-out;
+    transform: translateX(0px);
+}
+
+.carrossell img {
+    width: 460px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* slide carrossel 768px */
+
+/* section Ofertas */
+
+.ofertas{
+    display: none;
+    flex-direction: column;
+    margin-top: 32rem;
+    padding: 11% 0;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.ofertas ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.ofertas li {
+    background-color:whitesmoke;
+    margin: 10px;
+    padding: 2.5% 0;
+    padding-bottom: 4rem;
+}
+
+.ofertas img {
+    width: 290px;
+    height: 270px;
+    transition: 0.2s linear;
+}
+
+.ofertas img:hover{
+   padding: 7%;
+}
+
+.ofertas p {
+    padding: 0 2%;
+}
+
+.ofertas h3 {
+    padding: 2% 0;
+}
+
+.btn {
+    background-color: red;
+    padding: 10px 20%;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+}
+
+.btn:hover{
+    background-color: rgb(63, 30, 30);
+    color: #fff;
+}
+/* section Ofertas */
+
+/* section Celulares */
+
+.celulares{
+    display: none;
+    flex-direction: column;
+    margin-top: 32rem;
+    padding: 11% 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.celulares ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.celulares li {
+    background-color:whitesmoke;
+    margin: 10px;
+    padding: 2.5% 0;
+    padding-bottom: 4rem;
+}
+
+.celulares img {
+    width: 290px;
+    height: 270px;
+    transition: 0.2s linear;
+}
+
+.celulares img:hover{
+   padding: 7%;
+}
+
+.celulares p {
+    padding: 0 2%;
+}
+
+.celulares h3 {
+    padding: 2% 0;
+}
+
+/* section Celulares */
+
+/* section Televisão */
+
+.televisao{
+    display: none;
+    flex-direction: column;
+    margin-top: 32rem;
+    padding: 11% 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.televisao ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.televisao li {
+    background-color:whitesmoke;
+    margin: 10px;
+    padding: 2.5% 0;
+    padding-bottom: 4rem;
+}
+
+.televisao img {
+    width: 290px;
+    height: 270px;
+    transition: 0.2s linear;
+}
+
+.televisao img:hover{
+   padding: 7%;
+}
+
+.televisao p {
+    padding: 0 2%;
+}
+
+.televisao h3 {
+    padding: 2% 0;
+}
+
+/* section Celulares */
+
+/* JaVaScript typingText */
+
+.typing-Text{
+    position: absolute;
+    margin-top: 46.4%;
+    
+}
+
+#typingText{
+    color: #fff;
+    font-size: 30px;
+}
+
+/* JaVaScript typingText */
+
+@media (max-width: 768px){
+   
+    header nav {
+        display: none;
+    }
+    
+    header .bx-menu{
+        display: block;
+    }
+
+    header h2 {
+    margin: 0 auto;
+    }
+
+    .dropDown {
+        display: block;
+        box-shadow: 2px 2px 10px #000;
+        margin: 18.5% 0;
+        display: none;
+    }
+
+    .dropDown a {
+        margin: 0;
+        padding: 12px 5px;
+        font-size: 20px;
+        transition: 1s ease-in-out;
+    }
+
+    .dropDown a:hover{
+    background-color: rgb(97, 55, 55);
+}
+
+.searchBar input{
+width: 160px;
+}
+
+.media i{
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.ofertas{
+    padding: 17.1% 0;
+    margin-top: 20.4rem;
+    width: 100%;
+}
+
+.ofertas ul {
+    display: block;
+}
+
+.ofertas li {
+    padding: 10% 0;
+}
+
+.celulares{
+    padding: 17.1% 0;
+    margin-top: 20.4rem;
+    width: 100%;
+}
+
+.celulares ul {
+    display: block;
+}
+
+.celulares li {
+    padding: 10% 0;
+}
+
+.televisao{
+    padding: 17.1% 0;
+    margin-top: 20.4rem;
+    width: 100%;
+}
+
+.televisao ul {
+    display: block;
+}
+
+.televisao li {
+    padding: 10% 0;
+}
+
+.container {
+    display: none;
+}
+
+.containerr {
+    display: block;
+}
+
+.typing-Text{
+    margin-top: 22.5rem;
+}
+}
+
+@media (max-width: 468px){
+    .media {
+        white-space: nowrap;
+        font-size: 15x;
+    }
+
+    #typingText{
+        display: none;
+    }
+
+    .ofertas{
+        display: block;
+    }
+  
+    .ofertas,.celulares,.televisao{
+    padding-top: 7rem;
+  }
+
+  .dropDown {
+    margin-top: 5.8rem;
+}
+ 
+}
+
+ 
