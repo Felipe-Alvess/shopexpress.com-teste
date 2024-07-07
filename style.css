@@ -356,12 +356,14 @@ header nav a:hover {
 }
 
 .searchBar input{
-width: 160px;
+width: 150px;
+padding: 8px;
 }
 
 .media i{
     white-space: nowrap;
     font-size: 18px;
+    
 }
 
 .ofertas{

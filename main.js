@@ -69,6 +69,8 @@ item.style.display = 'none'
 
 // SearchBar
 
+// alternando entre links
+
 function clickOffer(){
 if(Ofertas.style.display == 'flex') {
 Ofertas.style.display = 'none'
@@ -113,6 +115,8 @@ Smartphones.style.display = 'none'}
 if(typingText.style.display = 'flex'){
     typingText.style.display = 'none'}
 }
+
+// alternando entre links
 
 // Adicionando valor ao carrinho
 
