@@ -123,12 +123,25 @@ if(typingText.style.display = 'flex'){
 document.addEventListener('DOMContentLoaded', () => {
     const cartButton = document.getElementById('itemList');
     const cartCount = document.getElementById('cartCount');
-
     cartButton.addEventListener('click', () => {
         let currentCount = parseInt(cartCount.textContent, 10);
         cartCount.textContent = currentCount + 1;
     });
+
+    const cartButtonn = document.getElementById('itemListt');
+    cartButtonn.addEventListener('click', () => {
+        let currentCount = parseInt(cartCount.textContent, 10);
+        cartCount.textContent = currentCount + 1;
+    });
+
+    const cartButtonnn = document.getElementById('itemListtt');
+    cartButtonnn.addEventListener('click', () => {
+        let currentCount = parseInt(cartCount.textContent, 10);
+        cartCount.textContent = currentCount + 1;
+    });
 });
+
+
 
 
 // Adicionando valor ao carrinho

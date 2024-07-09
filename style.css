@@ -108,10 +108,27 @@ header nav a:hover {
     font-size: 26px;
 }
 
+.bxl-github:hover{
+    color: aqua;
+}
+
+.bxl-instagram:hover{
+    color: rgba(255, 0, 43, 0.918);
+}
+
+.bxl-linkedin:hover{
+color:blue;
+}
+
+.bxl-whatsapp:hover{
+    color: green;
+}
+
 .login i:hover{
     color: red;
 }
 /* Media social e barra de pesquisa */
+
 /* slide Carrossel */
 .container {
     width: 100%;
@@ -320,7 +337,8 @@ header nav a:hover {
 
 #typingText {
     font-size: 30px;
-    color: #fff;
+    color: #000;
+    font-weight: bold;
 }
 
 /* JaVaScript typingText */
