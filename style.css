@@ -132,7 +132,7 @@ color:blue;
 /* slide Carrossel */
 .container {
     width: 100%;
-    height: 400px;
+    height: 450px;
     box-shadow: 2px 2px 4px #000;
     overflow: hidden;
     margin-top: 6.2rem;
@@ -147,7 +147,7 @@ color:blue;
 
 .carrossel img {
     width: 100%;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
 }
 /* slide Carrossel */
@@ -181,7 +181,7 @@ color:blue;
 /* section Ofertas */
 
 .ofertas{
-    display: none;
+    display: flex;
     flex-direction: column;
     margin-top: 32rem;
     padding: 11% 0;

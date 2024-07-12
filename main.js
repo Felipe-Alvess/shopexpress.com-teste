@@ -55,7 +55,7 @@ loop: false,
 
 document.getElementById('search').addEventListener('keyup', function() {
 let searchQuery = this.value.toLowerCase();
-let items = document.querySelectorAll('#itemList li');
+let items = document.querySelectorAll('#searchItem li');
 
 items.forEach(function(item){
 let text = item.textContent.toLowerCase();
