@@ -27,6 +27,21 @@ setInterval(carrossel, 5000);
 // slide Carrossel
 
 // slide Carrossel 768px
+const imgsss = document.getElementById('imgg');
+const imggg = document.querySelectorAll('#imggg img');
+let idxxx = 0;
+
+function carrossell(){
+idxxx++;
+if(idxxx > imggg.length - 1){
+idxxx = 0
+}
+imgsss.style.transform = `translateX(${-idxxx * 800}px)`
+}
+setInterval(carrossell, 4000);
+// slide Carrossel 768px
+
+// slide Carrossel 468px
 const imgss = document.getElementById('imgg');
 const imgg = document.querySelectorAll('#imgg img');
 let idxx = 0;
@@ -39,7 +54,7 @@ idxx = 0
 imgss.style.transform = `translateX(${-idxx * 410}px)`
 }
 setInterval(carrossell, 4000);
-// slide Carrossel 768px
+// slide Carrossel 468px
 
 // TypingText
 new TypeIt('#typingText',{
