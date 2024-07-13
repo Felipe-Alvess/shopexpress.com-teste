@@ -354,7 +354,7 @@ color:blue;
 /* JaVaScript typingText */
 
 .typing-Text{
-   padding-top: 0rem;
+   padding-top: 0.2rem;
    margin-top: 41.9rem;
 }
 
@@ -508,11 +508,12 @@ padding: 8px;
 
 .containerr {
     display: block;
+    margin-left: -1px;
 }
 
 #typingText {
    display: block;
-   padding-top: 8rem;
+   padding-top: 8.5rem;
    font-size: 20px;
 }
 }
@@ -530,7 +531,11 @@ padding: 8px;
        object-fit: cover;
     }
     #typingText {
-        display: block;
+       display: block;
+    }
+
+    .ofertas  {
+       padding-top: 10rem;
     }
   
 }
@@ -543,8 +548,19 @@ padding: 8px;
         margin-top: -3rem;
     }
 }
-
-
-
 /* media query 1440px */
+
+/* media query 375px */
+
+@media(max-width: 375px){
+   .containerr {
+    width: 100%;
+    margin-left: -1px;
+   }
+
+   #typingText {
+    margin-top: -4rem;
+   }
+}
+/* media query 375px */
  
