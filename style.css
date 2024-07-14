@@ -1,27 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-a{color: inherit;}
-body{
+
+a {
+    color: inherit;
+}
+
+body {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   background-color:#ddd;
+    background-color: rgb(7, 7, 7);
+    color: #fff;
+   
 }
-html,body{
+
+html,
+body {
     scroll-behavior: smooth;
 }
+
 /* header menu */
-header{
+header {
     padding: 1%;
-    background-color: red;
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +41,7 @@ header{
     color: #fff;
 }
 
-header .bx-menu{
+header .bx-menu {
     display: none;
     font-size: 30px;
     cursor: pointer;
@@ -50,8 +59,9 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: #000000c9;
+    background-color: red;
 }
+
 /* header menu */
 /* dropDown menu */
 .dropDown {
@@ -59,7 +69,7 @@ header nav a:hover {
     left: 0;
     display: none;
     z-index: 100;
-    background-color: #000000ce;
+    background-color: #000000c4;
     backdrop-filter: blur(10px);
 }
 
@@ -69,8 +79,9 @@ header nav a:hover {
     flex-direction: column;
     text-align: left;
     color: #fff;
-   
+
 }
+
 /* dropDown menu */
 
 /* Media social e barra de pesquisa */
@@ -83,10 +94,10 @@ header nav a:hover {
     height: 3rem;
     width: 100%;
     margin-top: 2.8rem;
-    background-color: #000;
+    background-color: #ccc;
     font-size: 20px;
     padding: 2%;
-    color: #fff;
+    color: #000;
     position: fixed;
     z-index: 1000;
 }
@@ -99,34 +110,35 @@ header nav a:hover {
     border: none;
 }
 
-.searchBar input:hover{
+.searchBar input:hover {
     outline-color: brown;
 }
 
-.media i{
+.media i {
     margin: 10px;
     font-size: 26px;
 }
 
-.bxl-github:hover{
+.bxl-github:hover {
     color: aqua;
 }
 
-.bxl-instagram:hover{
+.bxl-instagram:hover {
     color: rgba(255, 0, 43, 0.918);
 }
 
-.bxl-linkedin:hover{
-color:blue;
+.bxl-linkedin:hover {
+    color: blue;
 }
 
-.bxl-whatsapp:hover{
+.bxl-whatsapp:hover {
     color: green;
 }
 
-.login i:hover{
+.login i:hover {
     color: red;
 }
+
 /* Media social e barra de pesquisa */
 
 /* slide Carrossel */
@@ -150,6 +162,7 @@ color:blue;
     height: 450px;
     object-fit: cover;
 }
+
 /* slide Carrossel */
 
 /* slide Carrossel 768px */
@@ -174,6 +187,7 @@ color:blue;
     height: 320px;
     object-fit: cover;
 }
+
 /* slide Carrossel 768px*/
 
 /* slide carrossel 468px */
@@ -204,7 +218,7 @@ color:blue;
 
 /* section Ofertas */
 
-.ofertas{
+.ofertas {
     display: flex;
     flex-direction: column;
     margin-top: 32rem;
@@ -219,11 +233,11 @@ color:blue;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    
+
 }
 
 .ofertas li {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     margin: 10px;
     padding: 2.5% 0;
     padding-bottom: 4rem;
@@ -235,16 +249,18 @@ color:blue;
     transition: 0.2s linear;
 }
 
-.ofertas img:hover{
-   padding: 7%;
+.ofertas img:hover {
+    padding: 7%;
 }
 
 .ofertas p {
     padding: 0 2%;
+    color: #000;
 }
 
 .ofertas h3 {
     padding: 2% 0;
+    color: #000;
 }
 
 .btn {
@@ -253,17 +269,19 @@ color:blue;
     border-radius: 5px;
     position: relative;
     top: 15px;
+    border: none;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(63, 30, 30);
     color: #fff;
 }
+
 /* section Ofertas */
 
 /* section Celulares */
 
-.celulares{
+.celulares {
     display: none;
     flex-direction: column;
     margin-top: 32rem;
@@ -280,7 +298,7 @@ color:blue;
 }
 
 .celulares li {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     margin: 10px;
     padding: 2.5% 0;
     padding-bottom: 4rem;
@@ -292,23 +310,26 @@ color:blue;
     transition: 0.2s linear;
 }
 
-.celulares img:hover{
-   padding: 7%;
+.celulares img:hover {
+    padding: 7%;
 }
 
 .celulares p {
     padding: 0 2%;
+    color: #000;
+    font-size: 14px;
 }
 
 .celulares h3 {
     padding: 2% 0;
+    color: #000;
 }
 
 /* section Celulares */
 
 /* section Televisão */
 
-.televisao{
+.televisao {
     display: none;
     flex-direction: column;
     margin-top: 32rem;
@@ -325,7 +346,7 @@ color:blue;
 }
 
 .televisao li {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     margin: 10px;
     padding: 2.5% 0;
     padding-bottom: 4rem;
@@ -337,25 +358,27 @@ color:blue;
     transition: 0.2s linear;
 }
 
-.televisao img:hover{
-   padding: 7%;
+.televisao img:hover {
+    padding: 7%;
 }
 
 .televisao p {
     padding: 0 2%;
+    color: #000;
 }
 
 .televisao h3 {
     padding: 2% 0;
+    color: #000;
 }
 
 /* section Celulares */
 
 /* JaVaScript typingText */
 
-.typing-Text{
-   padding-top: 0.2rem;
-   margin-top: 41.9rem;
+.typing-Text {
+    padding-top: 0.2rem;
+    margin-top: 41.9rem;
 }
 
 #typingText {
@@ -367,18 +390,18 @@ color:blue;
 /* JaVaScript typingText */
 
 /* nedia query 768px */
-@media (max-width: 768px){
-   
+@media (max-width: 768px) {
+
     header nav {
         display: none;
     }
-    
-    header .bx-menu{
+
+    header .bx-menu {
         display: block;
     }
 
     header h2 {
-    margin: 0 auto;
+        margin: 0 auto;
     }
 
     .dropDown {
@@ -395,166 +418,170 @@ color:blue;
         transition: 1s ease-in-out;
     }
 
-    .dropDown a:hover{
-    background-color:#fff;
-    color: #000;
-}
+    .dropDown a:hover {
+        background-color: #fff;
+        color: #000;
+    }
 
-.searchBar input{
-width: 140px;
-padding: 8px;
-}
+    .searchBar input {
+        width: 140px;
+        padding: 8px;
+    }
 
-.media i{
-    white-space: nowrap;
-    font-size: 18px;
-}    
+    .media i {
+        white-space: nowrap;
+        font-size: 18px;
+    }
 
-.ofertas{
-    padding: 17.1% 0;
-    margin-top: 20.4rem;
-    width: 100%;
-}
+    .ofertas {
+        padding: 17.1% 0;
+        margin-top: 20.4rem;
+        width: 100%;
+    }
 
-.ofertas ul {
-    display: block;
-}
+    .ofertas ul {
+        display: block;
+    }
 
-.ofertas li {
-    padding: 10% 0;
-}
+    .ofertas li {
+        padding: 10% 0;
+    }
 
-.celulares{
-    padding: 17.1% 0;
-    margin-top: 20.4rem;
-    width: 100%;
-}
+    .celulares {
+        padding: 17.1% 0;
+        margin-top: 20.4rem;
+        width: 100%;
+    }
 
-.celulares ul {
-    display: block;
-}
+    .celulares ul {
+        display: block;
+    }
 
-.celulares li {
-    padding: 10% 0;
-}
+    .celulares li {
+        padding: 10% 0;
+    }
 
-.televisao{
-    padding: 17.1% 0;
-    margin-top: 20.4rem;
-    width: 100%;
-}
+    .televisao {
+        padding: 17.1% 0;
+        margin-top: 20.4rem;
+        width: 100%;
+    }
 
-.televisao ul {
-    display: block;
-}
+    .televisao ul {
+        display: block;
+    }
 
-.televisao li {
-    padding: 10% 0;
-}
+    .televisao li {
+        padding: 10% 0;
+    }
 
-.typing-Text{
-    margin-top: 20.5rem;
-}
+    .typing-Text {
+        margin-top: 20.5rem;
+    }
 
-.containerrr {
-    display: block;
-}
+    .containerrr {
+        display: block;
+    }
 
-#typingText {
-   padding-top: 9rem;
-}
+    #typingText {
+        padding-top: 9rem;
+    }
 
-.container {
-    display: none;
-}
+    .container {
+        display: none;
+    }
 
-.containerr {
-    display: none;
-}
+    .containerr {
+        display: none;
+    }
 }
 
 /* media query 768px */
 
 /* media query 468px */
-@media (max-width: 468px){
+@media (max-width: 468px) {
     .media {
         white-space: nowrap;
         font-size: 15x;
     }
-
-    #typingText{
+    
+   #typingText {
         display: none;
     }
 
-    .ofertas{
+    .ofertas {
         display: block;
     }
-  
-    .ofertas,.celulares,.televisao{
-    padding-top: 7rem;
-  }
 
-  .dropDown {
-    margin-top: 5.8rem;
-}
+    .ofertas,
+    .celulares,
+    .televisao {
+        padding-top: 7rem;
+    }
 
-.container {
-    display: none;
-}
+    .dropDown {
+        margin-top: 5.8rem;
+    }
 
-.containerrr{
-    display: none;
-}
+    .container {
+        display: none;
+    }
 
-.containerr {
-    display: block;
-    margin-left: -1px;
-}
+    .containerrr {
+        display: none;
+    }
+
+    .containerr {
+        display: block;
+        margin-left: -1px;
+    }
 }
 /* media query 468px */
 
-/* media query 1024px */
-@media (max-width: 1024px){
-    .container {
-        width: 1025px;
-        margin-top: 6rem;
-    }
 
-    .carrossel img{
-        width: 1025px;
-       object-fit: cover;
-    }
-    #typingText {
-       display: block;
-    }
-
-    .ofertas  {
-       padding-top: 10rem;
-    }
-  
-}
-/* media query 1024px */
 
 /* media query 1440px */
-
-@media(max-width: 1440px){
-    #typingText{
+@media(max-width: 1440px) {
+    #typingText {
         margin-top: -3rem;
     }
 }
+
 /* media query 1440px */
 
 /* media query 375px */
 
-@media(max-width: 375px){
-   .containerr {
-    width: 100%;
-    margin-left: -1px;
-   }
+@media(max-width: 375px) {
+    .containerr {
+        width: 100%;
+        margin-left: -1px;
+    }
 
-   #typingText {
-    display: none;
-   }
+    #typingText {
+        display: none;
+    }
 }
+
 /* media query 375px */
- 
+
+/* media query 1092 */
+
+@media(max-width: 1092px) {
+
+    .container {
+        width: 1018px;
+        height: 360px;
+    }
+
+    .carrossel img {
+        width: 1018px;
+        height: 360px;
+        object-fit: cover;
+    }
+
+#typingText {
+        display: none;
+    }
+}
+
+/* media query 375px */
