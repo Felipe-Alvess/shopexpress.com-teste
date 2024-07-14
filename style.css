@@ -510,12 +510,6 @@ padding: 8px;
     display: block;
     margin-left: -1px;
 }
-
-#typingText {
-   display: block;
-   padding-top: 8.5rem;
-   font-size: 20px;
-}
 }
 /* media query 468px */
 
@@ -559,7 +553,7 @@ padding: 8px;
    }
 
    #typingText {
-    margin-top: -4rem;
+    display: none;
    }
 }
 /* media query 375px */
