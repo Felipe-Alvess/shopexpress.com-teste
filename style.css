@@ -588,7 +588,10 @@ legend {
     .containerr {
         display: none;
     }
-
+    form {
+        width: 100%;
+        height: 100%;
+    }
   
 }
 
@@ -630,6 +633,11 @@ legend {
     .containerr {
         display: block;
         margin-left: -1px;
+    }
+
+    form {
+        width: 100%;
+        height: 100%;
     }
 
   
