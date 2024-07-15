@@ -50,7 +50,7 @@
     <a href="https://www.linkedin.com/in/felipe-alves-59462618a/"  target="_blank"><i class='bx bxl-linkedin'></i></a>
     <a href="https://wa.me/qr/NQBH75S4ZMBLH1" target="_blank"><i class='bx bxl-whatsapp'></i></a>
     <a href="#"><i class='bx bx-cart-download' id="cartCount">0</i></a>
-    <a href="#" class="login"><i class='bx bx-user'></i></a>
+    <a href="#" class="login"><i class='bx bx-user' onclick="fazerLogin()"></i></a>
 </div>
  </div>
 <!-- media social e pesquisa -->
@@ -190,9 +190,29 @@
 </ul>
 </div>
 </section>
-
 <!-- section itens Televisão -->
 
+<!-- formulário de acesso -->
+<form action="http://127.0.0.1:5500/index.html" method="post" id="form">
+    <fieldset>
+    <legend> Entre com a sua Conta </legend>
+    <input type="text" name="text" placeholder="Usuario" required>
+    <input type="password" name="passwoord" placeholder="Senha" required>
+    <input type="submit" value="submit" class="submit" name="text">
+
+    <div class="default">
+    <input type="checkbox" name="text"><p>Lembrar Senha</p>
+    <a href="#">Esqueceu a Senha ?</a>
+    </div>
+
+    <a href="#">Criar Cadastro</a>
+    <h3>Outras formas de Acesso</h2>
+    <i class='bx bxl-gmail'></i>
+    <i class='bx bxl-facebook'></i>
+    <i class='bx bx-envelope'></i>
+</fieldset>
+</form>
+<!-- formulário de acesso -->
 </body>
 <script src="main.js"></script>
 </html>

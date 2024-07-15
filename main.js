@@ -10,12 +10,10 @@ function openMenu(){
 
 // função abrir menu
 
+// slide Carrossel
 const imgs = document.getElementById('img');
 const img = document.querySelectorAll('#img img');
 let idx = 0;
-
-// slide Carrossel
-
 function carrossel(){
 idx++;
 if(idx > img.length - 1){
@@ -27,18 +25,17 @@ setInterval(carrossel, 5000);
 // slide Carrossel
 
 // slide Carrossel 768px
-const imgsss = document.getElementById('imgg');
+const imgsss = document.getElementById('imggg');
 const imggg = document.querySelectorAll('#imggg img');
 let idxxx = 0;
-
-function carrossell(){
+function carrosselll(){
 idxxx++;
 if(idxxx > imggg.length - 1){
 idxxx = 0
 }
 imgsss.style.transform = `translateX(${-idxxx * 800}px)`
 }
-setInterval(carrossell, 4000);
+setInterval(carrosselll, 4000);
 // slide Carrossel 768px
 
 // slide Carrossel 468px
@@ -145,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
    
 
-    const cartButtonn = document.getElementById('btnButton');
+    const cartButtonn = document.getElementById('itemListt');
     cartButtonn.addEventListener('click', () => {
         let currentCount = parseInt(cartCount.textContent, 10);
         cartCount.textContent = currentCount + 1;
@@ -159,3 +156,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Adicionando valor ao carrinho
+
+//  formulário de acesso 
+
+function fazerLogin(){
+    if (form.style.display == 'flex') {
+        form.style.display = 'none'
+    } else {
+        form.style.display = 'flex'
+    }
+}
+//  formulário de acesso 
